@@ -1,33 +1,182 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Resume Matcher - Step 1</title>
+    <meta charset="UTF-8">
+    <title>Resume Matcher</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Body */
+        body {
+            background: linear-gradient(135deg, #e0f7fa, #ffffff);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Card */
+        .matcher-card {
+            border-radius: 20px;
+            background: #eaf5de;
+            box-shadow: 8px 8px 20px rgba(0,0,0,0.1), -8px -8px 20px rgba(255,255,255,0.7);
+            width: 100%;
+            max-width: 700px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .matcher-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 10px 10px 25px rgba(0,0,0,0.15), -10px -10px 25px rgba(255,255,255,0.8);
+        }
+
+        /* Heading */
+        h1 {
+            font-weight: 700;
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        /* Form Labels */
+        .form-label {
+            font-weight: 600;
+            color: #34495e;
+        }
+
+        /* Inputs and Textarea */
+        input.form-control,
+        textarea.form-control {
+            border-radius: 12px;
+            border: 1px solid #ced4da;
+            padding: 12px;
+            transition: all 0.3s ease;
+        }
+
+        input.form-control:focus,
+        textarea.form-control:focus {
+            border-color: #00bcd4;
+            box-shadow: 0 0 10px rgba(0,188,212,0.3);
+        }
+
+        /* Gradient Button */
+        .btn-gradient {
+            background: linear-gradient(135deg, #00bcd4, #007bff);
+            color: #fff;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 15px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+
+        .btn-gradient:hover {
+            background: linear-gradient(135deg, #007bff, #00bcd4);
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0,123,255,0.3);
+        }
+
+        /* Center the submit button */
+        .text-center {
+            margin-top: 20px;
+        }
+
+        /* Login Overlay */
+        #login-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+        }
+
+        #login-card {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 8px 8px 25px rgba(0,0,0,0.2);
+            width: 100%;
+            max-width: 400px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Resume Matcher - Upload Resume(s) & Job Description</h1>
-    <form action="/upload" method="POST" enctype="multipart/form-data">
 
-        <!-- Single resume upload -->
-        <label for="file">Upload Resume (PDF/DOCX/TXT):</label>
-        <input type="file" name="file">
-        <br><br>
+    <!-- Login Overlay -->
+    <div id="login-overlay">
+        <div class="card" id="login-card">
+            <h1>Login</h1>
+            <form id="loginForm">
+                <div class="mb-3">
+                    <label class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter username" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+                </div>
+                <button type="submit" class="btn btn-gradient">Login</button>
+            </form>
+        </div>
+    </div>
 
-        <!-- ZIP upload for multiple resumes -->
-        <label for="zip_file">Or Upload ZIP of Resumes:</label>
-        <input type="file" name="zip_file" accept=".zip">
-        <br><br>
+    <!-- Resume Matcher Form -->
+    <div class="container">
+        <div class="card matcher-card p-4">
+            <h1 class="mb-4">📄 Resume Matcher</h1>
+            <form action="/upload" method="POST" enctype="multipart/form-data">
 
-        <!-- Job Description input -->
-        <label for="jd_text">Paste Job Description:</label>
-        <br>
-        <textarea id="jd_text" name="jd_text" rows="6" cols="70"></textarea>
-        <br><br>
+                <div class="mb-3">
+                    <label class="form-label">Upload Resume (PDF/DOCX/TXT)</label>
+                    <input type="file" class="form-control" name="file" accept=".pdf,.docx,.txt">
+                </div>
 
-        <label for="jd_file">Or Upload JD File (PDF/DOCX/TXT):</label>
-        <input type="file" name="jd_file">
-        <br><br>
+                <div class="mb-3">
+                    <label class="form-label">Or Upload ZIP of Resumes</label>
+                    <input type="file" class="form-control" name="zip_file" accept=".zip">
+                </div>
 
-        <button type="submit">Submit</button>
-    </form>
+                <div class="mb-3">
+                    <label class="form-label">Paste Job Description</label>
+                    <textarea class="form-control" id="jd_text" name="jd_text" rows="6" placeholder="Paste job description here..."></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Or Upload JD File (PDF/DOCX/TXT)</label>
+                    <input type="file" class="form-control" name="jd_file" accept=".pdf,.docx,.txt">
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-gradient">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const loginOverlay = document.getElementById('login-overlay');
+        const loginForm = document.getElementById('loginForm');
+
+        loginForm.addEventListener('submit', function(e){
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Fake login check
+            if(username === "admin" && password === "admin") {
+                loginOverlay.style.display = "none";
+            } else {
+                alert("Invalid username or password!");
+            }
+        });
+    </script>
+
 </body>
 </html>

@@ -1,0 +1,63 @@
+Noopur Sharma
+Pune, India | +91-8308615111 | noopur.sharma@email.com
+
+Professional Summary
+
+Passionate Full Stack / Backend Software Engineer with strong expertise in Node.js, Express.js, MongoDB, and modern JavaScript (ES6+). Experienced in designing scalable backend services, building RESTful APIs, and creating interactive web applications using HTML, CSS, and EJS/React. Solid foundation in data structures, algorithms, and object-oriented programming. Skilled in collaborative development and delivering high-quality software solutions.
+
+Technical Skills
+
+Programming Languages: Java, C++, Python, JavaScript (ES6+)
+Backend: Node.js, Express.js, RESTful API development
+Frontend: HTML5, CSS3, JavaScript, EJS, React.js
+Database: MongoDB, PostgreSQL/SQL
+Other Tools: Git, GitHub, Postman, VS Code
+Concepts: Data Structures & Algorithms, OOP, MVC architecture, Scalable System Design
+Optional: Basic Machine Learning (classification & regression models), Cloud Platforms (AWS/Azure/GCP)
+
+Projects
+
+1. Wanderlust Travel Planner
+Full Stack Web Application | Node.js, Express.js, MongoDB, EJS, JavaScript, CSS
+
+Designed and implemented scalable backend services and RESTful APIs for managing users, itineraries, and bookings.
+
+Built dynamic frontend using EJS templating and responsive design with HTML/CSS.
+
+Implemented MongoDB for efficient data storage and queries.
+
+Applied object-oriented programming principles to structure modular and maintainable code.
+
+Collaborated with team members using Git/GitHub for version control.
+
+2. AI Resume Matching System
+Backend & NLP Project | Python, MongoDB, Flask
+
+Developed a backend system to parse resumes and match candidates to job descriptions using NLP and BERT embeddings.
+
+Implemented semantic similarity scoring for candidate-job fit.
+
+Designed database schemas and APIs for storing and retrieving resume data.
+
+3. E-commerce Web App (Demo)
+Full Stack Web Application | Node.js, Express.js, React.js, MongoDB
+
+Built RESTful APIs for product catalog, user authentication, and shopping cart management.
+
+Implemented interactive UI with React.js, responsive design, and client-side routing.
+
+Optimized queries and backend performance for faster response times.
+
+Education
+
+Bachelor of Technology in Computer Science – Cummins College 
+
+Achievements & Highlights
+
+Successfully deployed full-stack applications and REST APIs.
+
+Strong understanding of data structures, algorithms, and OOP principles applied in projects.
+
+Exposure to cloud platforms and machine learning basics.
+
+Actively contribute to open-source projects and internal tools.

@@ -1,0 +1,58 @@
+Job Description – Software Engineer (Full Stack / Backend Focus)
+
+Location: Pune, India (Hybrid)
+Employment Type: Full-time
+
+About the Role
+
+We are looking for a passionate Software Engineer to join our growing development team. The ideal candidate has strong fundamentals in data structures, algorithms, and object-oriented programming, along with hands-on experience in web development (Node.js, Express, MongoDB, JavaScript, HTML, CSS, EJS/React). You will work on designing scalable systems, building APIs, and collaborating with cross-functional teams to deliver impactful software solutions.
+
+Key Responsibilities
+
+Design, develop, and maintain RESTful APIs and backend services using Node.js and Express.js.
+
+Work with databases (MongoDB, SQL/PostgreSQL) to model, store, and query data efficiently.
+
+Build and enhance interactive web applications with HTML, CSS, JavaScript (and optionally React.js).
+
+Collaborate with product managers and other engineers to deliver features from concept to deployment.
+
+Write clean, efficient, and maintainable code following best practices.
+
+Debug, test, and optimize applications for performance and scalability.
+
+Contribute to open-source projects and internal tools when applicable.
+
+Required Skills & Qualifications
+
+Bachelor’s degree (or pursuing) in Computer Science, Electronics & Telecommunication, or related field.
+
+Strong knowledge of Java, C++/C, or Python, and ability to pick up new languages quickly.
+
+Proficiency in Node.js, Express.js, MongoDB, JavaScript (ES6+), HTML5, CSS3.
+
+Familiarity with data structures, algorithms, and OOP principles.
+
+Exposure to version control (Git/GitHub) and collaborative development.
+
+Experience with projects like web applications, APIs, or machine learning models.
+
+Preferred Qualifications
+
+Experience with React.js or other modern front-end frameworks.
+
+Exposure to cloud platforms (AWS/Azure/GCP).
+
+Knowledge of machine learning basics (classification, regression models).
+
+Strong problem-solving mindset and willingness to learn.
+
+What We Offer
+
+Opportunity to work on real-world projects impacting thousands of users.
+
+Mentorship and growth opportunities in both backend and full-stack engineering.
+
+A collaborative, innovative, and supportive team environment.
+
+Competitive stipend/salary and performance-based incentives.

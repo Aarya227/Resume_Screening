@@ -1,0 +1,81 @@
+PRIYA NAIR
+Chennai, Tamil Nadu
+priyanair.dev@gmail.com
++91 9845023456 | GitHub: github.com/priya-nair | LinkedIn: linkedin.com/in/priya-nair
+
+EDUCATION
+
+B.Tech in Information Technology – SSN College of Engineering, Chennai (2020 – 2024)
+CGPA: 8.2/10.0
+Relevant Coursework: Data Structures & Algorithms, Web Technologies, Database Systems, Software Engineering
+
+Higher Secondary Education (XII, CBSE) – PSBB Senior Secondary School, Chennai (2018) – 89.5%
+
+Secondary Education (X, CBSE) – PSBB Senior Secondary School, Chennai (2016) – 93.1%
+
+SKILLS HIGHLIGHTS
+
+Programming Languages: Java, JavaScript, Python
+
+Web Development: Node.js, Express.js, MongoDB, HTML5, CSS3, Bootstrap
+
+Frontend: Basic React.js, Vanilla JS, jQuery
+
+Databases: MongoDB, MySQL
+
+Core Competencies: OOP, REST APIs, Database Modeling, Debugging
+
+Tools: Git, GitHub, Postman, VS Code
+
+PROJECTS
+
+1. Student Placement Portal
+Developed a placement management system for students and recruiters.
+
+Technologies: Node.js, Express.js, MongoDB, Bootstrap
+
+Created REST APIs for student registration, company postings, and interview scheduling.
+
+Implemented secure login with JWT tokens.
+
+2. Online Notes Sharing Platform
+Built a community-driven platform for sharing study notes and resources.
+
+Technologies: Node.js, Express.js, HTML, CSS, MongoDB
+
+Implemented search and filtering features for subject-wise materials.
+
+Focused on responsive design with Bootstrap.
+
+3. Restaurant Finder Website
+Developed a website to search restaurants and view menus.
+
+Technologies: HTML, CSS, JavaScript, basic React.js integration for UI.
+
+Integrated Google Maps API for location search.
+
+INTERNSHIP EXPERIENCE
+
+Backend Intern – Cognizant Technology Solutions (May 2023 – July 2023)
+
+Assisted in building REST APIs for internal HR system using Node.js and Express.js.
+
+Wrote unit tests and handled debugging of API endpoints.
+
+Documented API endpoints using Postman.
+
+ACHIEVEMENTS
+
+Completed MongoDB for Developers course on MongoDB University.
+
+Top 15 finalist in Smart India Hackathon 2023.
+
+Solved 300+ coding problems on LeetCode (Java & Python).
+
+EXTRACURRICULAR ACTIVITIES
+
+Member of Google Developer Student Club (GDSC SSN).
+
+Volunteered at "Tech4All" hackathon as mentor for junior teams.
+
+Active blogger on Medium (writes about backend development).

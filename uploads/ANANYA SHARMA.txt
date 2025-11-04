@@ -1,0 +1,111 @@
+ANANYA SHARMA
+Bengaluru, Karnataka
+ananyasharma.dev@gmail.com
+
+EDUCATION
+
+B.Tech in Computer Science and Engineering – PES University, Bengaluru (2020 – 2024)
+CGPA: 8.6/10.0
+Relevant Coursework: Data Structures and Algorithms, Database Systems, Operating Systems, Software Engineering, Machine Learning, Web Technologies.
+
+Higher Secondary Education (XII, CBSE) – National Public School, Bengaluru (2018) – 91.4%
+
+Secondary Education (X, CBSE) – National Public School, Bengaluru (2016) – 94.2%
+
+SKILLS HIGHLIGHTS
+
+Programming Languages: Java, Python, JavaScript, C++
+
+Web Development: Node.js, Express.js, MongoDB, React.js, HTML5, CSS3, Bootstrap
+
+Database Systems: MongoDB, MySQL, PostgreSQL
+
+Tools & Platforms: Git, GitHub, Docker basics, AWS (EC2, S3), VS Code, Postman
+
+Core Competencies: Object-Oriented Programming, RESTful API design, Software Architecture, Debugging and Testing, Agile Methodologies
+
+Machine Learning Basics: Regression, Classification, Data Preprocessing
+
+PROJECTS
+
+1. Campus Connect – University Networking Platform
+Developed a full-stack platform to connect students and faculty members across campus. Implemented authentication, messaging, and event posting features.
+
+Technologies: MERN Stack (MongoDB, Express.js, React.js, Node.js)
+
+Designed REST APIs for posting events and announcements.
+
+Implemented JWT-based authentication for secure login.
+
+Optimized queries for scalability with MongoDB indexes.
+
+Deployed on AWS EC2 instance with Nginx reverse proxy.
+
+2. Personal Finance Tracker
+Built a finance management web app to help users track income, expenses, and savings goals.
+
+Technologies: Node.js, Express.js, MongoDB, Bootstrap
+
+Created APIs for transaction management, budget alerts, and monthly reporting.
+
+Integrated charts with Chart.js for financial visualizations.
+
+Received positive feedback during college tech fest for usability.
+
+3. Smart Health Prediction System
+Designed an ML-based web application for predicting possible diseases based on symptoms.
+
+Technologies: Python (Flask), Scikit-learn, Pandas, React.js for frontend
+
+Trained models using Decision Trees and Logistic Regression with ~87% accuracy.
+
+Provided recommendation system for nearest hospitals and doctors.
+
+4. E-commerce API Project
+Developed a scalable API system to support an e-commerce store backend.
+
+Technologies: Node.js, Express.js, PostgreSQL
+
+Handled product catalog, user authentication, and payment integration.
+
+Wrote 60+ unit tests with Jest ensuring 90% code coverage.
+
+INTERNSHIP EXPERIENCE
+
+Software Development Intern – Infosys (May 2023 – July 2023)
+
+Worked with the backend team on building APIs for a logistics management platform.
+
+Gained hands-on experience with Express.js and microservices architecture.
+
+Optimized SQL queries reducing response time by 30%.
+
+Contributed to internal documentation and knowledge sharing.
+
+ACHIEVEMENTS
+
+Smart India Hackathon 2022 – Finalist for developing a government grievance redressal system using MERN stack.
+
+LeetCode Profile: 500+ coding problems solved, rated Knight (Top 10% globally).
+
+Hacktoberfest 2023: Contributed to 4 open-source projects (React components, backend bug fixes).
+
+Awarded Best Web Developer Intern during college internship program.
+
+EXTRACURRICULAR ACTIVITIES
+
+Technical Coordinator, Google Developer Student Club (GDSC) PES University – Conducted workshops on React and Node.js attended by 150+ students.
+
+Active member of Mozilla Campus Club – Worked on open-source contributions, including bug fixes and documentation.
+
+Volunteered at Code for India Hackathon mentoring junior developers on backend technologies.
+
+Organized and led coding competitions at inter-college tech festivals.
+
+PERSONAL PROJECTS & WEB LINKS
+
+Portfolio Website: ananya-sharma-portfolio.netlify.app
+
+GitHub Repositories: github.com/ananya-sharma (60+ projects in web dev and ML)
+
+Blog Writing: Writes about full-stack development on Medium (10k+ views).

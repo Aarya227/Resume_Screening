@@ -1,0 +1,76 @@
+RAHUL MEHTA
+Bhopal, Madhya Pradesh
+rahulmehta.engg@gmail.com | +91 9823012345 | GitHub: github.com/rahul-mehta
+
+EDUCATION
+
+B.E. in Electronics and Communication Engineering – Maulana Azad National Institute of Technology (MANIT), Bhopal (2020 – 2024)
+CGPA: 7.4/10.0
+Relevant Coursework: Digital Signal Processing, Microcontrollers, Communication Systems, VLSI Design, Embedded Programming
+
+Higher Secondary Education (XII, CBSE) – St. Paul’s School, Bhopal (2018) – 85.2%
+
+Secondary Education (X, CBSE) – St. Paul’s School, Bhopal (2016) – 90.8%
+
+SKILLS HIGHLIGHTS
+
+Programming Languages: C, C++, MATLAB, basic Java
+
+Hardware/Embedded: Arduino, Raspberry Pi, Verilog, VHDL
+
+Software Tools: MATLAB, Multisim, Proteus, Keil uVision, Git (basic)
+
+Core Competencies: Digital Circuits, PCB Design, Signal Processing, Microcontroller Programming
+
+Other Knowledge: Python scripting (beginner), SQL (basics)
+
+PROJECTS
+
+1. Smart Irrigation System
+Developed an IoT-based solution to automate irrigation using soil moisture sensors.
+
+Technologies: Arduino, C++, GSM Module
+
+Automated water supply based on real-time soil readings.
+
+Implemented SMS alerts for farmers.
+
+2. Heart Rate Monitoring System
+Designed a portable device to measure and log heart rate using sensors.
+
+Technologies: Embedded C, Raspberry Pi
+
+Stored data on local SD card for offline analysis.
+
+3. Traffic Light Controller (Mini Project)
+Implemented traffic signal control using FPGA.
+
+Technologies: Verilog, Quartus II
+
+Developed state machine logic for traffic control.
+
+INTERNSHIP EXPERIENCE
+
+Embedded Systems Intern – Bharat Electronics Limited (BEL), Bengaluru (June 2023 – Aug 2023)
+
+Worked on PCB testing and validation for radar systems.
+
+Assisted in firmware development for ARM Cortex-based boards.
+
+Learned basics of defense electronics protocols.
+
+ACHIEVEMENTS
+
+Winner of National IoT Hackathon (2022) – Built smart agriculture prototype.
+
+Published a paper on “IoT Applications in Smart Cities” at IEEE Student Conference.
+
+Completed NPTEL certification in “Digital Circuits and Systems”.
+
+EXTRACURRICULAR ACTIVITIES
+
+Core member of Robotics Club at MANIT – worked on line-following robots.
+
+Organized Electronics Circuit Design competition in college tech fest.
+
+Volunteered for NGO events teaching electronics to school students.
