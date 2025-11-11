@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | AI Matcher</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container-custom navbar">
+            <div class="logo">🧠 AI Matcher</div>
+            <nav class="nav-links">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">Logout</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container-custom" style="padding: 40px 20px;">
+        <h1 style="margin-bottom: 10px;">📊 Candidate Matching Dashboard</h1>
+        <p style="color: var(--text-medium); margin-bottom: 30px;">Upload a single Job Description and multiple Resumes to begin the AI analysis.</p>
+
+        <div class="dashboard-grid">
+            <div class="card-shadow">
+                <h2>Job Description (JD)</h2>
+                <div id="jd-upload-zone" class="upload-zone">
+                    <i class="fas fa-file-upload fa-3x" style="color: var(--primary-blue);"></i>
+                    <p style="margin-top: 10px;">Drag & Drop or Click to upload JD (PDF/DOCX)</p>
+                    <input type="file" id="jd-file-input" accept=".pdf,.docx" style="display: none;">
+                </div>
+                
+                <h4 style="margin-top: 20px;">Uploaded File:</h4>
+                <ul id="jd-file-list" class="file-list">
+                    <li style="color: var(--text-medium);">No file uploaded.</li>
+                </ul>
+            </div>
+
+            <div class="card-shadow">
+                <h2>Candidate Resumes</h2>
+                <div id="resumes-upload-zone" class="upload-zone">
+                    <i class="fas fa-folder-open fa-3x" style="color: #10B981;"></i>
+                    <p style="margin-top: 10px;">Drag & Drop or Click to upload Resumes (Multiple PDF/DOCX)</p>
+                    <input type="file" id="resumes-file-input" accept=".pdf,.docx" multiple style="display: none;">
+                </div>
+
+                <h4 style="margin-top: 20px;">Uploaded Files:</h4>
+                <ul id="resumes-file-list" class="file-list">
+                    <li style="color: var(--text-medium);">No files uploaded.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card-shadow" style="text-align: center; margin-top: 30px;">
+            <button id="start-analysis-btn" class="btn-primary" disabled style="padding: 15px 50px; font-size: 1.1rem;">
+                <i class="fas fa-brain"></i> Start AI Analysis
+            </button>
+            <div id="loading-bar" class="loading-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+            <p id="analysis-status" style="margin-top: 15px; color: var(--text-medium); font-weight: 600; display: none;">
+                Analyzing files... Please wait.
+            </p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container-custom">
+            &copy; 2025 AI Matcher | All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
